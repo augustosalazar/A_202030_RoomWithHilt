@@ -1,11 +1,8 @@
-package com.uninorte.a_202030_roomwithhilt
+package com.uninorte.a_202030_roomwithhilt.ui
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import android.view.Menu
-import android.view.MenuItem
+import com.uninorte.a_202030_roomwithhilt.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -17,11 +17,6 @@ class MainViewModel @ViewModelInject constructor(
         mainRepository.insertEntry(entry)
     }
 
+    fun selectAll() = mainRepository.getAll()
 
-
-    fun justATest(){
-        viewModelScope.launch {
-            Log.d("MyOut","MainViewModel test");
-        }
-    }
 }
